@@ -1,0 +1,36 @@
+body{
+    background-color: #c0fefc;
+}
+h1,h3,h2{
+    color: #194350;
+}
+hr{
+    border-top: 4px dotted;
+    width: 10%;
+    border-top-color: black;
+} 
+table{
+    padding: 1%;
+    border: 1px black;
+}
+
+/* Class Selectors */
+/* We can use classes anywhere we want */
+.mainheading{
+    text-align: center;
+    color: black;
+}
+
+/* ID Selectors */
+/* Only one item can be named as one ID */
+#done{
+    color: #194350;
+}
+
+.mainheading:hover{
+    background-color: #eec4c4;
+}
+
+.image:hover{
+    background-color: cornflowerblue;
+}
